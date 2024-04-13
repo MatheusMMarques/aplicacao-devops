@@ -4,12 +4,58 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bem vindo</title>
+
+    <style>
+        body {
+            background-color: #17cc72; /* Define a cor de fundo */
+            background-image: url('caminho/para/sua/imagem.jpg'); /* Define a imagem de fundo */
+            background-size: cover; /* Faz a imagem cobrir toda a tela */
+            background-position: center; /* Centraliza a imagem */
+            background-repeat: no-repeat; /* Evita a repetição da imagem */
+            font-family: Arial, sans-serif; /* Define a fonte do texto */
+        }
+
+        h1, span {
+            text-align: center; /* Centraliza o texto */
+            color: #333; /* Define a cor do texto */
+        }
+
+        span {
+            display: block; /* Faz com que o span ocupe toda a largura */
+            font-size: 24px; /* Define o tamanho da fonte */
+            margin-top: 20px; /* Adiciona um espaçamento superior */
+        }
+
+        .card{
+            background-color: rgb(219, 219, 219);
+            width: 40%;
+            padding: 50px;
+            border-radius: 17px;
+            border: solid 1px black;
+            transition: 0.5s;
+            margin-top: 300px;
+
+        }
+        
+        .card:hover{
+            transform: scale(1.1);
+        }
+
+        body{
+            display: flex;
+            justify-content: center;
+        }
+    </style>
+
 </head>
 <body>
 
-    <h1>Bem vindo</h1>
+    <div class="card">
 
-    <span>Mais doce que fanta uva com mumu</span>
-    
+        <h1>Bem vindo</h1>
+
+        <span>10 pila no pix ta resolvido 💸💸</span>
+    </div>
 </body>
 </html>
+
